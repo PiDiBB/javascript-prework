@@ -33,18 +33,18 @@ body {
     font-size: 36px;
 }
 
-
-
 #button-rock,
 #button-paper,
 #button-scissors {
    font-size: 36px;
    border-radius: 5px;
-   background-color: greenyellow;
+   background-color: rgb(255, 255, 255);
    color: initial;
    padding: 15px;
    margin: 15px;
+   height: 80px;
+   width: 160px;
 }
 
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFXLHdCQUF3QiIsImZpbGUiOiJzdHlsZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY29udGFpbmVye2JhY2tncm91bmQtY29sb3I6IzVmOWVhMH1cbiJdfQ== */

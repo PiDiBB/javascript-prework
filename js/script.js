@@ -1,4 +1,4 @@
-var argComputerMove, argMoveId, argPlayerMove, computerMove, playerInput, playerMove, randomNumber;
+let argComputerMove, argMoveId, argPlayerMove, computerMove, playerInput, playerMove, randomNumber;
 
 /**
  * Describe this function...
@@ -36,7 +36,7 @@ function getMoveName(argMoveId) {
   printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
 }
 
-var argButtonName, buttonPaper, buttonRock, buttonScissors;
+let argButtonName, buttonPaper, buttonRock, buttonScissors;
 
 /**
  * Describe this function...
@@ -44,9 +44,7 @@ var argButtonName, buttonPaper, buttonRock, buttonScissors;
 function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
-
   playerMove = argButtonName;
-
   console.log('wybór ruchu gracza to: ' + playerInput);
   playerMove = argButtonName;
   console.log('ruch gracza to: ' + playerMove);
